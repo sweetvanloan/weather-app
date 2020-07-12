@@ -49,10 +49,11 @@ function handleGetData(evt) {
 }
 
 function render() {
-    $location.html(data.location);
-    $main.html(data.main);
-    $rain.html(data.rain);
-    $snow.html(data.snow);
+    console.log("Here is the data" + data)
+    $location.html(weatherData.location);
+    $main.html(weatherData.main);
+    $rain.html(weatherData.rain);
+    $snow.html(weatherData.snow);
     
 }
 
