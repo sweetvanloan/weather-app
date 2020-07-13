@@ -1,0 +1,60 @@
+/* commented out attempts to center all content as time would not allow for the trial and error involved with multiple screen type/size accomodation */
+
+body {
+    background-color: #DAF7A6; 
+  }
+  
+  h1 {
+    text-decoration: underline;
+  }
+  
+  .title {
+      color: white;
+  }
+  
+  header {
+     /* margin-left: 400px; */
+  }
+  
+  h1, h2 {
+    color: #581845;
+    margin: 20px;
+  }
+  
+  h3, section {
+    color: #C70039;
+  }
+  
+  section {
+    background-color: #FFC300; 
+    border: 2px solid #FF5733;
+  }
+  
+  h3, p {
+    margin: 20px;
+  }
+  
+  .submit {
+    background-color: #21618C;
+    color: white;
+     /* margin-left: 10px; */
+  }
+  
+  .search {
+     /* margin-left: 500px; */ 
+  }
+  
+  .submit:hover {
+    background-color: #27AE60;
+    color: #D35400;
+  }
+  
+  .search:hover {
+    background-color: #27AE60;
+    color: white;
+  }
+  
+  input {
+    margin-top: 40px;
+    height: 25px;
+  }
